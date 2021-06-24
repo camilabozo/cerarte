@@ -73,7 +73,7 @@ header{
 
 .header-title--container{
     margin-top: 100px;
-    justify-content: center;
+    /* justify-content: center; */
     width: 100%;
     min-width: 320px;
     max-width: 900px;
@@ -99,7 +99,7 @@ header{
     position: relative;
     width: 100%;
     min-width: 320px;
-    height: 60vh;
+    height: 70vh;
     background-image: url('../assets/portada.jpg');
     background-position: center;
     background-size: cover;
@@ -136,6 +136,7 @@ header{
     flex-direction: column;
     width: 100%;
     min-width: 320px;
+    /* max-width: 800px; */
     padding-top: 75px;
 }
 
@@ -154,12 +155,12 @@ header{
 .main-content--container p{
     max-width: 900px;
     margin-top: 5px;
+    max-width: 800px;
     font-size: 1.6rem;
-    color: var(--dark-violet);
-    line-height: 2rem;
+    color: var(--english-violet);
+    line-height: 2.2rem;
     padding-left: 35px;
     padding-right: 35px;
-    text-align: left;
     font-weight: 400;
 }
 
@@ -167,12 +168,11 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 90%;
 }
 
 .main-content-img--container img{
-    width: 80%;
-    /* min-width: 320px; */
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
@@ -185,7 +185,7 @@ header{
 
 .main-content--container h4{
     max-width: 900px;
-    margin-top: 5px;
+    margin-top: 20px;
     font-size: 1rem;
     color: var(--dark-violet);
     line-height: 2rem;
@@ -223,7 +223,6 @@ header{
     width: 100%;
     min-height: 400px;
     max-height: 500px;
-    /* margin-bottom: 100px; */
     background-image: url('./assets/portada2.jpg');
     background-size: auto;
     background-position: center;
@@ -330,6 +329,7 @@ footer section{
 
 footer .left ul{
     font-size: 1.4rem;
+    color: var(--dark-violet);
     font-weight: 500;
     line-height: 1.8rem;
     list-style: none;
