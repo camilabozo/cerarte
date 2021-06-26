@@ -100,7 +100,7 @@ header{
     width: 100%;
     min-width: 320px;
     height: 70vh;
-    background-image: url('../assets/portada.jpg');
+    background-image: url('./assets/portada.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
